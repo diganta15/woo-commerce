@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap");
+* {
+  margin: 0px;
+}
+
+.text-primary {
+  color: #272d4e;
+  font-family: "Lato", serif;
+  text-align: center;
+}
+
+.hero-section {
+  background-image: url("../assets/bg_gradient.png");
+}
+
+.hero-section .bg {
+  background-image: url("../assets/Vector.png");
+  background-repeat: no-repeat;
+  background-position-y: -30px;
+  background-position-x: 50em;
+  background-size: 1000px;
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.hero-section .head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-section .head .head-left {
+  display: flex;
+}
+
+.hero-section .head .head-left img {
+  object-fit: contain;
+  top: 0;
+}
+
+.hero-section .head .head-left ul {
+  display: flex;
+}
+
+.hero-section .head .head-left ul li {
+  margin-left: 10px;
+  list-style: none;
+  color: #272d4e;
+  font-family: "Roboto", sans-serif;
+}
+
+.hero-section .head .head-right ul {
+  display: flex;
+}
+
+.hero-section .head .head-right ul li {
+  margin-right: 10px;
+  list-style: none;
+  color: #272d4e;
+  font-family: "Roboto", sans-serif;
+}
+
+.hero-section .showcase {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 140px;
+}
+
+.hero-section .showcase .showcase-l {
+  padding-left: 60px;
+}
+
+.hero-section .showcase .showcase-l h1 {
+  font-size: 60px;
+  font-family: "Lato", sans-serif;
+  color: #272d4e;
+  padding-bottom: 30px;
+}
+
+.hero-section .showcase .showcase-l p {
+  line-height: 20px;
+  color: #94a2b3;
+  font-family: "Roboto", serif;
+}
+
+.hero-section .showcase .showcase-l .btn {
+  padding-top: 30px;
+  display: flex;
+  font-family: "Roboto", serif;
+}
+
+.hero-section .showcase .showcase-l .btn li {
+  list-style: none;
+}
+
+.hero-section .showcase .showcase-l .btn .btn-v {
+  padding-left: 26px;
+  padding-right: 26px;
+  background-color: #7854f7;
+  color: #fff;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-radius: 28px;
+  cursor: pointer;
+}
+
+.hero-section .showcase .showcase-l .btn p {
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.hero-section .showcase .showcase-l .btn .btn-b {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.hero-section .showcase .showcase-l .btn .btn-b a {
+  color: blue;
+  font-style: bold;
+  text-decoration: none;
+}
+
+.hero-section .showcase .showcase-r {
+  background-image: url("../assets/featured-image.png");
+  background-repeat: no-repeat;
+  background-size: 600px;
+  height: 800px;
+  background-position-y: -10px;
+}
+
+.features-section .main {
+  padding-left: 16em;
+  padding-right: 16em;
+}
+
+.features-section .features {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.features-section .f1 {
+  padding-left: 50px;
+}
+
+.features-section .f1 .apple-pay {
+  position: absolute;
+  align-self: left;
+  z-index: 1;
+  padding-left: 50px;
+  padding-top: 20px;
+  width: 60px;
+}
+
+.features-section .f1 .payment {
+  z-index: 1;
+  padding-left: 45px;
+  padding-top: 60px;
+  position: absolute;
+  width: 150px;
+}
+
+.features-section .f1 .back1 {
+  left: 0;
+  position: absolute;
+  width: 320px;
+  z-index: 0;
+  padding-left: 130px;
+}
+
+.features-section .f1 h2 {
+  padding-top: 230px;
+  padding-left: 70px;
+}
+
+.features-section .f1 p {
+  padding-left: 70px;
+}
+
+.features-section .f1 a {
+  padding-left: 70px;
+}
+
+.features-section .f2 .square {
+  position: absolute;
+  z-index: 1;
+  width: 110px;
+  height: auto;
+  padding-left: 130px;
+  padding-top: 50px;
+}
+
+.features-section .f2 .mail {
+  position: absolute;
+  z-index: 1;
+  padding-top: 74px;
+  padding-left: 280px;
+  width: 110px;
+}
+
+.features-section .f2 .facebook {
+  position: absolute;
+  z-index: 1;
+  width: 110px;
+  padding-top: 140px;
+  padding-left: 130px;
+}
+
+.features-section .f2 .jetpack {
+  position: absolute;
+  z-index: 1;
+  width: 110px;
+  padding-top: 140px;
+  padding-left: 250px;
+}
+
+.features-section .f2 .adword {
+  position: absolute;
+  z-index: 1;
+  width: 110px;
+  padding-top: 220px;
+  padding-left: 200px;
+}
+
+.features-section .f2 .back2 {
+  position: absolute;
+  z-index: 0;
+  width: 320px;
+  padding-top: 60px;
+  padding-left: 100px;
+}
